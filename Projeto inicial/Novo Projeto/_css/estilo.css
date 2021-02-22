@@ -89,47 +89,6 @@ figure.foto-legenda:hover figcaption {
 	opacity: 1;
 }
 
-/* Formatação do Menu */
-
-nav#menu {
-	display: block;
-}
-
-nav#menu ul {
-	list-style: none;
-	text-transform: uppercase;
-	position: absolute;
-	top: -20px;
-	left: 715px;
-}
-
-nav#menu li {
-	display: inline-block;
-	background-color: #dddddd;
-	padding: 10px;
-	margin: 2;
-	transition: background-color 1s;
-}
-
-nav#menu li:hover {
-	background-color: #606060;
-}
-
-
-nav#menu h1 {
-	display: none;
-}
-
-nav#menu a {
-	color: #000000;
-	text-decoration: none;
-}
-
-nav#menu a:hover {
-	color: white;
-	text-decoration: underline;
-}
-
 section#corpo {
 	display: block;
 	width: 565px;
@@ -144,6 +103,14 @@ article#noticia-principal h2 {
 	background-color: #dddddd;
 	padding: 5px 0px 5px 10px;
 	margin: 10px 0px 10px 0px;
+}
+
+article#noticia-principal h1#titulo-02{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 30pt;
+	color: #141414;
+	padding: 0px;
+	margin-top: 0px;
 }
 
 
